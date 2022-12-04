@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+
+int main()
+{
+    
+    int num, contador;
+    
+    printf("digite um numero: ");
+    scanf("%d", &num);
+    printf("%d, ", num);
+    for(num < 0; num = num - 1;){
+    printf("%d, ", num);
+    }
+    printf("0.");
+    
+    
+
+    return 0;
+}

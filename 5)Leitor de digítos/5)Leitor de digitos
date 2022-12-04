@@ -1,0 +1,34 @@
+#include <stdlib.h>
+#include <stdio.h>
+#include <string.h>
+
+int main()
+{
+    
+    char nome[100];
+    char email[100];
+    char numero[100];
+    
+    int a;
+    int b;
+    int c;
+    
+    system("clear||cls");
+    printf("Digite seu nome: ");
+    scanf("%s", &nome);
+    a = strlen(nome);
+    
+    printf("Digite seu email: ");
+    scanf("%s", &email);
+    b = strlen(email);
+    
+    printf("Digite seu numero de telefone: ");
+    scanf("%s", &numero);
+    c = strlen(numero);
+    
+    printf("\nSeu nome tem %d digitos \n", a);
+    printf("Seu email tem %d digitos \n", b);
+    printf("Seu telefone tem %d digitos \n", c);
+    
+    return 0;
+}

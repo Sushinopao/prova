@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main()
+{
+    
+    int contador, num, resultado;
+    printf("digite um numero inteiro: ");
+    scanf("%d", &num);
+    
+    for(contador = 1; contador <= 10; contador++){
+        resultado = num * contador;
+        printf("%d X %d = %d\n", num, contador, resultado);
+    }
+
+    return 0;
+}

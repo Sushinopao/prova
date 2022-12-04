@@ -1,0 +1,45 @@
+#include <stdio.h>
+
+
+int main()
+{
+    
+    float dia, mes, ano;
+    
+    printf("digite o dia do seu aniversario: ");
+    scanf("%f", &dia);
+    printf("digite o mes do seu aniversario: ");
+    scanf("%f", &mes);
+    printf("digite o ano do seu aniversario: ");
+    scanf("%f", &ano);
+    
+    int a = (dia*100 + mes) + ano;
+    int b = (a / 100) + (a % 100);
+    int c = b % 5;
+    
+    if(c== 0)
+    printf("PERFIL TIMIDO");
+    
+    else
+    if(c==1)
+    printf("PERFIL SONHADOR");
+    
+    else 
+    if(c==2)
+    printf("PERFIL PAQUERADOR");
+    
+    else
+    if(c==3)
+    printf("PERFIL ATRAENTE");
+    
+    else
+    if(c==4)
+    printf("PERFIL ATRAENTE");
+    
+    
+    
+    
+    
+
+    return 0;
+}
